@@ -1,0 +1,31 @@
+{
+  "name": "social-sentiment-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "collect": "node src/collectors/run.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sentiment": "^5.0.2",
+    "better-sqlite3": "^9.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express-rate-limit": "^7.1.5",
+    "winston": "^3.11.0",
+    "chart.js": "^4.4.1",
+    "twitter-api-v2": "^1.15.2",
+    "node-cron": "^3.0.3",
+    "facebook-nodejs-business-sdk": "^16.0.2",
+    "instagram-private-api": "^1.45.3",
+    "sharp": "^0.33.1",
+    "node-fetch": "^3.3.2",
+    "image-size": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
